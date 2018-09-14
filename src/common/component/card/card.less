@@ -1,0 +1,137 @@
+.card_box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: auto;
+    z-index: 4222;
+    background: rgba(255, 255, 255, 1);
+    .item {
+        width: 355px;
+        height: 89px;
+        margin: 15px auto 0px;
+        position: relative;
+        border: 1PX solid #FFA6AD;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 5px;
+    }
+    .right_sj {
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid rgba(0, 0, 0, 0);
+        border-right: 10px solid #FFA6AD;
+        border-bottom: 10px solid rgba(0, 0, 0, 0);
+        border-left: 10px solid rgba(0, 0, 0, 0);
+        display: block;
+        position: absolute;
+        right: -1px;
+        top: 35px;
+    }
+    .right_sj::after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid rgba(0, 0, 0, 0);
+        border-right: 10px solid rgb(255, 255, 255);
+        border-bottom: 10px solid rgba(0, 0, 0, 0);
+        border-left: 10px solid rgba(0, 0, 0, 0);
+        display: block;
+        position: absolute;
+        top: -10px;
+        right: -11px;
+    }
+    .left_sj {
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid rgba(0, 0, 0, 0);
+        border-right: 10px solid rgba(0, 0, 0, 0);
+        border-bottom: 10px solid rgba(0, 0, 0, 0);
+        border-left: 10px solid #FFA6AD;
+        display: block;
+        position: absolute;
+        left: -1px;
+        top: 35px;
+    }
+    .left_sj::after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid rgba(0, 0, 0, 0);
+        border-right: 10px solid rgba(0, 0, 0, 0);
+        border-bottom: 10px solid rgba(0, 0, 0, 0);
+        border-left: 10px solid rgb(255, 255, 255);
+        display: block;
+        position: absolute;
+        top: -10px;
+        left: -11px;
+    }
+    .over_box {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        .left_box {
+            width: 95px;
+            height: 87px;
+            border-right: 1px dashed #FFA6AD;
+            text-align: center;
+            .price_box {
+                margin-top: 19px;
+                height: 23px;
+                overflow: hidden;
+                .icon {
+                    font-size: 14px;
+                    font-family: SourceHanSansCN-Bold;
+                    font-weight: bold;
+                    color: rgba(255, 39, 56, 1);
+                    line-height: 16px;
+                }
+                .price {
+                    font-size: 30px;
+                    font-family: SourceHanSansCN-Bold;
+                    font-weight: bold;
+                    color: rgba(255, 39, 56, 1);
+                    line-height: 16px;
+                }
+            }
+            .text_box {
+                font-size: 12px;
+                font-family: SourceHanSansCN-Regular;
+                font-weight: 400;
+                color: rgba(102, 102, 102, 1);
+                line-height: 16px;
+                margin-top: 10px;
+            }
+        }
+        .right_box {
+            width: 230px;
+            overflow: hidden;
+            box-sizing: border-box;
+            padding-left: 20px;
+            .title {
+                font-size: 15px;
+                font-family: SourceHanSansCN-Bold;
+                font-weight: bold;
+                color: rgba(0, 0, 0, 1);
+                line-height: 16px;
+                display: block;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 210px;
+                overflow: hidden;
+                margin-top: 19px;
+                display: block;
+            }
+            .time {
+                display: block;
+                margin-top: 17px;
+                font-size: 12px;
+                font-family: SourceHanSansCN-Regular;
+                font-weight: 400;
+                color: rgba(153, 153, 153, 1);
+                line-height: 16px;
+            }
+        }
+    }
+}

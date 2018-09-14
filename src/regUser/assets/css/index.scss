@@ -1,0 +1,30 @@
+.testClass{
+    width: 100%;
+    height: 100%;
+    background: red;
+    img{
+        width: 375px;
+    }
+}
+
+*{
+    touch-action: none;
+}
+
+.card-page{
+    .am-wingblank.am-wingblank-lg{
+        margin: 0px;
+        width: 375px;
+        height: 200px;
+        .am-carousel-wrap{
+            margin-bottom: 30px;
+        }
+        .am-carousel-wrap-dot>span{
+            width: 5px;
+            height: 5px;
+        }
+        .am-carousel-wrap-dot-active{
+            color: #fff;
+        }
+    }
+}

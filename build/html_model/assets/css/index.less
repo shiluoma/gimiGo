@@ -1,0 +1,46 @@
+html,body{
+    margin: 0px;
+    padding: 0px; 
+}
+
+.testClass{
+    width: 100%;
+    height: 100%;
+    img{
+        width: 10rem;
+    }
+}
+
+
+.card-page{
+    .am-wingblank.am-wingblank-lg{
+        margin: 0px;
+        width: 375px;
+        height: 200px;
+        touch-action: none;
+        .am-carousel-wrap{
+            margin-bottom: 30px;
+        }
+        .am-carousel-wrap-dot>span{
+            width: 5px;
+            height: 5px;
+        }
+        .am-carousel-wrap-dot-active{
+            color: #fff;
+        }
+    }
+}
+
+.animateBBB{
+    animation: shandong 1s infinite linear alternate;
+    position: relative;
+    // -webkit-animation:mymove 5s infinite; /*Safari and Chrome*/
+}
+
+@keyframes shandong{
+    0% {color:red;top: 0px}
+    25% {color:rgb(0, 255, 64);}
+    50% {color:rgb(111, 0, 255);top:70px}
+    75% {color:rgb(187, 255, 0);}
+    100% {color:rgb(0, 30, 255);top: 0px;}
+}

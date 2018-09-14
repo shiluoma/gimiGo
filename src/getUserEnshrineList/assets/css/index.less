@@ -1,0 +1,188 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fc{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.8);
+    img{
+        right: 19px;
+        top: 24px;
+        width: 45px;
+        height: 63px;
+        position: absolute;
+    }
+    .text{
+        font-size:17px;
+        color: #eee; 
+        position: relative;
+        margin-top: 67px;
+        span{
+            display: block;
+            line-height: 30px;
+            padding-left: 107px;
+            text-align: left;
+        }
+    }
+}
+
+.invite-page {
+    .am-wingblank.am-wingblank-lg {
+        margin: 0px;
+        width: 375px;
+        height: 200px;
+        touch-action: none;
+        .am-carousel-wrap {
+            margin-bottom: 30px;
+        }
+        .am-carousel-wrap-dot>span {
+            width: 5px;
+            height: 5px;
+        }
+        .am-carousel-wrap-dot-active {
+            color: #fff;
+        }
+    }
+    .bg-box {
+        width: 100%;
+        height: 155px;
+        background: url("../img/bg1.png");
+        overflow: hidden;
+        .imgc {
+            width: 64px;
+            height: 64px;
+            background: url("../img/de.jpg");
+            background-size:cover;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+        .bgt {
+            color: #fff;
+            font-size: 16px;
+            line-height: 16px;
+            display: block;
+            text-align: center;
+            margin: 10px 0px;
+        }
+        .bgc {
+            color: #fff;
+            font-size: 13px;
+            display: block;
+            text-align: center;
+        }
+    }
+    .cards {
+        padding: 15px;
+        min-height: 400px;
+        clear: both;
+        overflow: hidden;
+    }
+    .card-box {
+        width: 162px;
+        height: 240px;
+        float: left;
+        border-bottom: 1px solid #D8D8D8;
+        margin: 0px 5px 20px 5px;
+        img {
+            width: 162px;
+            height: 162px;
+        }
+        .title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #000;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+        }
+        .priceBox {
+            .rightPrice {
+                font-size: 14px;
+                height: 14px;
+                line-height: 14px;
+                display: inline-block;
+                font-weight: bold;
+                color: red;
+                position: relative;
+                margin-left: -1px;
+            }
+            .oldPrice {
+                font-size: 12px;
+                color: #b3b3b3;
+                left: 4px;
+                display: inline-block;
+                position: relative;
+            }
+            .oldPrice::after {
+                content: "";
+                width: 110%;
+                height: 1px;
+                background: rgb(185, 185, 185);
+                left: 0px;
+                bottom: 6px;
+                position: absolute
+            }
+            .jfInfo {
+                display: block;
+                font-size: 12px;
+                color: red;
+                margin-top: 6px;
+            }
+        }
+    }
+    .btn-box {
+        overflow: hidden;
+        .btnt {
+            color: #333333;
+            font-size: 14px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 47px;
+            text-align: center;
+        }
+        .btnr {
+            margin: 12px auto 17px;
+            color: #FF2738;
+            display: block;
+            text-align: center;
+            font-size: 18px;
+            border: 0px;
+            outline: none;
+        }
+        .btncss {
+            width: 110px;
+            height: 38px;
+            line-height: 38px;
+            font-size: 15px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .bottom-logo {
+        overflow: hidden;
+        top: 8px;
+        margin: 8px auto 0px;
+        text-align: center;
+        img {
+            width: 140px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.redBtn .am-button {
+    border-radius: 2px;
+    color: #fff;
+    background: #FF2738 !important;
+    border: 0px solid #FF2738 !important;
+}
